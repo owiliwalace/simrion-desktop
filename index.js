@@ -1,6 +1,6 @@
 const express = require('express');
 const { db } = require('./firebase'); // Import Firebase db reference
-
+require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 10000;
 
